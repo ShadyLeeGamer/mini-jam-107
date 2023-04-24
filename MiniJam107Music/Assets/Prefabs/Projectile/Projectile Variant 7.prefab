@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3725333106849929962
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -3980091295359825586, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: despawnTime
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044365519599637960, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044365519599637960, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044365519599637960, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044365519599637960, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044365519599637960, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044365519599637960, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044365519599637960, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044365519599637960, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044365519599637960, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044365519599637960, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044365519599637960, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044365519599637961, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044365519599637963, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ceb038707d98fb649a2d1cfa14fe6a75, type: 3}
+    - target: {fileID: 3044365519599637966, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: speedX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044365519599637966, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: speedY
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044365519599637973, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+      propertyPath: m_Name
+      value: Projectile Variant 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3044365519599637962, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+    - {fileID: 3044365519599637966, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+--- !u!1 &1841067308284759871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3044365519599637973, guid: bf05bdf8660963c4fae3347f1c6dd583, type: 3}
+  m_PrefabInstance: {fileID: 3725333106849929962}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2238897162648329399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841067308284759871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b8b6af564326744bfa719cb2849ee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedX: 0
+  speedY: 6
+  damage: 0
+  coinPerAttack: 10
